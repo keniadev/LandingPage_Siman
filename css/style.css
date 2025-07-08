@@ -475,5 +475,91 @@ h1, h2, h3, h4 {
 /* =================== PROMOCIONES =================== */
 
 /* =================== SUSCRIPCION =================== */
+.suscripcion-seccion {
+  background-color: #fff8f8;
+  padding: 3rem 1rem;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 3rem auto;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.suscripcion-titulo {
+  color: var(--colorMarca_Oscuro);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.suscripcion-texto {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.suscripcion-beneficios {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.suscripcion-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  color: var(--colorMarca_Oscuro);
+  font-size: 0.95rem;
+  background-color: #ffe4e1;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.suscripcion-item i {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.suscripcion-formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.suscripcion-input {
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.suscripcion-boton {
+  background-color: var(--colorMarca_Intenso);
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.suscripcion-boton:hover {
+  background-color: var(--colorMarca_Oscuro);
+  transform: translateY(-3px);
+}
+
+.suscripcion-aviso {
+  font-size: 0.9rem;
+  margin-top: 1.5rem;
+  color: #777;
+}
+
 
 /* =================== EVENTOS =================== */
