@@ -29,7 +29,7 @@ h1, h2, h3, h4 {
 }
 
 /* =================== HEADER GLOBAL =================== */
-.header-container {
+.container-inicio .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -49,8 +49,9 @@ h1, h2, h3, h4 {
 }
 
 
-.logo-container  {
+.container-inicio .header-container .logo-container  {
   max-width: 150px;
+  
 }
 .logo-container {
   cursor: pointer;
@@ -473,6 +474,49 @@ h1, h2, h3, h4 {
 
 
 /* =================== PROMOCIONES =================== */
+
+/* ========== PROMOCIONES CARDS ========== */
+
+.promociones-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .promociones-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.promociones-card {
+  width: 320px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  height: 30rem;
+}
+
+.promociones-card img {
+  width: 100%;
+  border-radius: 6px;
+  height: 350px;
+}
+.promociones-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.promociones-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
 
 /* =================== SUSCRIPCION =================== */
 .suscripcion-seccion {
