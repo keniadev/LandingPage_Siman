@@ -1,4 +1,6 @@
 /* =================== ROOT =================== */
+
+/* =========== PALETA DE COLORES SIMAN =========== */
 :root {
   --colorMarca_Oscuro: #a83338;
   --colorMarca_Intenso: #d02d37;
@@ -474,6 +476,7 @@ h1, h2, h3, h4 {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 2rem;
+
 }
 @media (max-width: 768px) {
   .container-inicio .footer .footer-container {
@@ -513,10 +516,10 @@ h1, h2, h3, h4 {
   color: var(--colorMarca_Intenso);
 }
 
-.container-inicio .footer .footer-container .footer-bottom {
-  text-align: center;
+.container-inicio .footer  .footer-bottom  {
+   text-align: center;
+  width: 100%;
   margin-top: 2rem;
-  font-size: 0.9rem;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   padding-top: 1rem;
 }
